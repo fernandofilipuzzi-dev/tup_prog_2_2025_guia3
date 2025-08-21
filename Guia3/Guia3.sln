@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1_figuras", "Ejercicio1\Ejercicio1_figuras.csproj", "{9146D150-9B70-4155-B741-3AD1161A2DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2_bordadora", "Ejercicio2\Ejercicio2_bordadora.csproj", "{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9146D150-9B70-4155-B741-3AD1161A2DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9146D150-9B70-4155-B741-3AD1161A2DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9146D150-9B70-4155-B741-3AD1161A2DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9146D150-9B70-4155-B741-3AD1161A2DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BF53A8-DE68-2C29-5B9E-A5CA5FE4C702}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {369D7E77-1B52-4803-B20A-8C71752FFC28}
+	EndGlobalSection
+EndGlobal
