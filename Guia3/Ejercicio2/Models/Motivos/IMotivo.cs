@@ -2,5 +2,5 @@
 
 public interface IMotivo
 {
-    char[][] Bordar();
+    char[][] GetPatron();
 }

@@ -3,11 +3,17 @@
 public class ZigZag: IMotivo
 {
 
-    public char[][] Bordar()
+    public char[][] GetPatron()
     {
         return new char[][]
         { 
             new char[]{'/' ,'\\' }
         };
+    }
+
+    public override string ToString()
+    {
+        return "ZigZag";
+
     }
 }

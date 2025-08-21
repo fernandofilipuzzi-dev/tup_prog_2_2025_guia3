@@ -16,10 +16,10 @@ public class Combinado: IMotivo
         motivos.Add(motivo);
     }   
 
-    public char[][] Bordar()
+    public char[][] GetPatron()
     {
         IMotivo m= motivos[n];
         n=++n%motivos.Count;
-        return m.Bordar();
+        return m.GetPatron();
     }
 }

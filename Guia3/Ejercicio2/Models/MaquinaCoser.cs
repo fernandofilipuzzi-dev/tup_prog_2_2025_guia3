@@ -13,9 +13,9 @@ public class MaquinaCoser
         this.motivo = bordado;
     }
 
-    public string[] Bordar()
+    public string[] DarPuntada()
     {
-        char[][] patron = this.motivo.Bordar();
+        char[][] patron = this.motivo.GetPatron();
 
 
         string[] bordado = new string[patron.GetLength(0)];
@@ -25,6 +25,11 @@ public class MaquinaCoser
             bordado[n] = new string(patron[n]);
         }
         return bordado;
+    }
+
+    public void AgregarPatron(IMotivo motivo)
+    {
+        this.motivo = motivo;
     }
 
 }

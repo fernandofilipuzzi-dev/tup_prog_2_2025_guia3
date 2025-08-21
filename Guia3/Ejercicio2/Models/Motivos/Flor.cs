@@ -2,7 +2,7 @@
 
 public class Flor:IMotivo
 {
-    public char[][] Bordar()
+    public char[][] GetPatron()
     {
         return new char[][]
         {
@@ -11,5 +11,11 @@ public class Flor:IMotivo
             new char[]{' ' ,' ','*',' ' },
             new char[]{' ' ,' ','|',' ' },
         };
+    }
+
+    public override string ToString()
+    {
+        return "Flor";
+
     }
 }
